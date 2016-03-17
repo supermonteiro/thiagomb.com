@@ -185,6 +185,11 @@ EXPERIENCES
   font-size: 1.6em;
   font-weight: bold;
 }
+.job .project{
+  font-size: 1.4em;
+  font-weight: bold;
+  color: LimeGreen
+}
 .job .description{
   font-size: 1.2em;
   line-height: 1.5em;
