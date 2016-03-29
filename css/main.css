@@ -382,13 +382,13 @@ STAR WARS
 #titles
 {
   position: static;
-  width: 18em;
+  width: 100%;
   height: 10em;
   bottom: 0;
-  left: 50%;
+  /*left: 50%;*/
   font-size: 350%;
   font-weight: bold;
-  text-align: justify;
+  /*text-align: justify;*/
   overflow: hidden;
   transform-origin: 50% 100%;
   transform: perspective(300px) rotateX(25deg);
