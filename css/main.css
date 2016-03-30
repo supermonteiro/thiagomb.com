@@ -412,6 +412,7 @@ STAR WARS
   position: absolute;
   top: 100%;
   animation: scroll 60s linear 1s infinite;
+  text-align: justify;
 }
 
 @keyframes scroll {
