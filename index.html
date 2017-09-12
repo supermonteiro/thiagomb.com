@@ -1,470 +1,637 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thiago Monteiro Barbosa - Personal WebSite</title>
-    <link rel="shortcut icon" type="image/ico" href="img/cat.ico"/>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            <div id="photo">
-              <img src="img/avatar.jpg" alt="avatar">
+
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Thiago Monteiro Barbosa - Personal WebSite</title>
+        <link rel="shortcut icon" type="image/ico" href="img/cat.ico" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container-top">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Qualifications">Qualifications</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Education">Education</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#Projects">Projects</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">Thiago <br/> Monteiro Barbosa</h1>
+                            <p class="promo-block-text">Web &amp; Software Developer</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/thiagomonteirobarbosa" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/thiagomonteiro" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/tmbarbosa/" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a href="skype:supermonteiro@gmail.com?chat" class="social-icons"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="img/mockup/avatar.png" align="Avatar">
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
             </div>
-            <div id="text-header">
-              <h1>Hello,<br> my name is <span>Thiago Monteiro Barbosa</span> and this is my resume/cv</h1>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          <!-- ABOUT ME -->
-          <div class="box">
-            <div id="titles">
-              <div id="titlecontent">
-            <p class="center">About Me</p>
-            <p>I'm a passionate Software Engineer, with 8 years experience in developing applications and systems with a focus on web applications, embedded systems and user experience, with some work on BI and project management.
-            </p><br>
-            <p>
-            Relative to PHP development, I designed and developed 2 systems at FUNCEME from scratch. One was for tracking the usage of the company's cars, and the other monitors the water level of all lakes in our state.
-            </p><br>
-            <p>
-            At SSPDS, I was dedicated to improving the local version of dotProject, also coded in PHP. I changed the overall layout, improved 4 modules, disabled a few that were not needed and developed a brand new one, that would send SMS alerts to project leaders and persons of interest whenever a landmark would be reached, and also helped managing the project itself. For this module, I was awarded the 2nd place most innovative open source solution - Prêmio Ceará de Cidadani@ Eletrônica 2010.
-            </p><br>
-            <p>
-              After I've joined SERPRO, I worked for 2 years with mainframe development using natural and Adabas. I developed new programs, subprograms and routines, and also documented for Brazil's government critical systems, mostly related to cash flow and tax control. Later I've worked for 2 years with BI developers, creating reports, jobs and ETLs using Pentaho, and also designed and administrated our PostgreSQL database. Ultimately, I've been working as a full-stack developer, using Java, AngularJS and Bootstrap.
-            </p><br>            
-            <p>
-            I've been learning Swift for iOS development and Ruby on Rails on my spare time. Always trying to keep myself updated :) I'm passionate about clean and smart code, which I believe is more than just an engineering work, it's a form of art. We must always learn new and better ways to not only make our code work, but to be as fast and intelligent as possible.
-            </p>
-              </div>
-            </div>
-          </div>
-          <!-- EDUCATION -->
-          <div class="box">
-            <h2>Education</h2>
-            <ul id="education" class="clearfix">
-              <li>
-                <div class="year pull-left">2018</div>
-                <div class="description pull-right">
-                  <h3>Web and Mobile Development Program</h3>
-                  <strong><p>New Brunswick Community College - Moncton, NB, Canada</p></strong>
-                  <p>
-                  </p>
-                </div>
-              </li>	
-              <li>
-                <div class="year pull-left">2013</div>
-                <div class="description pull-right">
-                  <h3>Master of Business Association - Project Management</h3>
-                  <strong><p>Faculdade Integrada do Ceará - Estácio - Fortaleza, Brazil</p></strong>
-                  <p>
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div class="year pull-left">2008</div>
-                <div class="description pull-right">
-                  <h3>Bachelor in Computer Science</h3>
-                  <strong><p>Universidade Estadual do Ceará - Fortaleza, Brazil</p></strong>                  
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- EXPERIENCES -->
+        <!--========== SLIDER ==========-->
 
-          <div class="box">
-            <h2>Last Experiences</h2>
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">AirVM</div>
-                <div class="year">06/2017 - 07/2017</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Software Developer</div>
-                  <div class="description">Coding of models and controllers for a RESTful application. 
-                  <br/>
-                  <br/>                
-                  <ul>
-                    <li>Created over 6 models and controllers for AirSembly.</li>
-                    <li>Development PHP (CodeIgniter) and Docker</li>
-                    <li>Agile Methodology</li>                
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">Cognitive X</div>
-                <div class="year">11/2016 - 01/2017</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Software Solutions Specialist</div>
-	                <div class="description">Responsible for Stored Procedures and .NET components. 
-	                <br/>
-	                <br/>                
-	                <ul>
-		                <li>Created or edited over a dozen SQL Stored Procedures and Functions</li>
-		                <li>Development using C# and ASP.NET</li>
-		                <li>Agile Methodology</li>                
-	                </ul>
-		            </div>
-              </div>
-            </div>
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">SERPRO</div>
-                <div class="year">2016</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Full-stack Web Developer</div>
-	                <div class="description">Created a component for picking up participants in the meetings. 
-	                <br/>
-	                <br/>                
-		                <ul>
-			                <li>Developed java classes</li>
-			                <li>AngularJS and Bootstrap</li>
-			                <li>Agile Methodology</li>                
-		                </ul>
-	                </div>
-              </div>
-            </div>
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">SERPRO</div>
-                <div class="year">2014-2015</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Business Intelligence Analyst and Developer</div>
-                <div class="description">I managed our relational postgreSQL database, created and optimized ETLs and jobs and also created reports over analyzed data. 
-                <br/>
-                <br/>
-                <ul>
-                <li>DBA of relational PostgreSQL database</li>
-                <li>Creation of reports using Pentaho Report Designer</li>
-                <li>Creation of jobs and ETLs using Pentaho Data Integration</li>
-                <li>Creation and running scripts on HP Operations Orchestration</li>
-                <li>Agile Methodology</li>                
-                </ul></div>
-              </div>
-            </div>
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">SERPRO</div>
-                <div class="year">2010 - 2013</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Mainframe Developer</div>
-                <div class="description">Developed programs, subroutines and created user iterfaces. I also helped on documenting and improving old programs.
-                <br/>
-                <br/>
-                <ul>
-                  <li>Edited existing programs and routines</li>
-                  <li>Developed new programs, subprograms and routines</li>
-                  <li>Design of user interfaces</li>
-                  <li>Added individuals and legal entities to the "good payers" list </li>
-                  <li>Documented new and old programs</li>
-                  <li>Coordinated the 2014-2051 yearly migration</li>                  
-                </ul></div>                     
-                </div>                
-              </div>
-            <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">SSPDS-CE</div>
-                <div class="year">2010 - 2010</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Full-stack Web Developer</div>
-                <div class="description">I lead developed the customization of dotProject. I edited the design, disabled unused modules and created a brand new one, that would send SMS alerts to project leaders whenever a landmark was reached. Also helped on managing projects.
-                <br/>
-                <br/>
-                <ul>
-                  <li>Layout Design</li>
-                  <li>Lead Developer</li>
-                  <li>DBA of PostgreSQL database</li>
-                  <li>Creation of SMS Alert Module</li>
-                  <li>Project Manager</li>                  
-                </ul></div>                     
-                </div>                
-              </div>
-              <div class="job clearfix">
-              <div class="col-xs-3">
-                <div class="where">FUNCEME</div>
-                <div class="year">2008 - 2010</div>
-              </div>
-              <div class="col-xs-9">
-                <div class="profession">Full-stack Web Developer</div>
-                <div class="description">I lead developed multiple projects. I was responsible for the design, user experience, modeling and administrating databases, programing the front-end and back-end, and even created a new 3D logo using Rhynocerus.
-                <br/>
-                <br/>
-                <ul>
-                  <li>Layout Design</li>
-                  <li>Lead Developer</li>
-                  <li>DBA of PostgreSQL and Oracle databases</li>
-                  <li>User experience</li>
-                  <li>Design of FUNCEME's 3D logo</li>                  
-                </ul></div>                     
-                </div>                
-              </div>  
-            </div>
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60 ">
+                        <img class="full-width img-responsive" src="img/500x700/me_and_dogs.jpg" alt="Image">
+                        <!-- LANGUAGES -->
+                        <div class="margin-b-50" style="margin-top:20px;">
+                            <h2>Languages</h2>
+                            <div id="language-skills">
+                                <div class="skill">Portuguese <div class="icons pull-right"><div style="width: 100%;" class="icons-blue"></div></div></div>
+                                <div class="skill">English <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div>
+                                <div class="skill">Japanese <div class="icons pull-right"><div style="width: 40%;" class="icons-blue"></div></div></div>
+                            </div>
+                        </div>
+                        <!-- END LANGUAGES -->
+                        <!-- HOBBIES-->
+                        <div  style="float: left;">
+                            <h2>My Hobbies</h2>
+                            <div class="hobby">Technology</div>
+                            <div class="hobby">Science</div>
+                            <div class="hobby">Movies</div>
+                            <div class="hobby">Games</div>
+                            <div class="hobby">Anime</div>
+                            <div class="hobby">Pets</div>
+                            <div class="hobby">Music</div>
+                            <div class="hobby">Travels</div>
+                            <div class="hobby">Learn</div>
+                            <div class="hobby">Books</div>
+                        </div>
+                        <!-- END HOBBIES-->
+                    </div>
 
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>About Me</h2>
+                                    <p>I'm Thiago Monteiro Barbosa, a technology enthusiast and animal lover. I moved to Canada with my wife and pets, looking for a better life for us all and to further advance in my career.</p>
+                                    <p>I've been a developer for 8 years, and I love what I do. I'm a team player, hard working professional that is always in a good mood and trying to learn something new.</p>
+                                </div>
+                                <a href="http://bit.ly/thiagosresume" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>
+                            </div>
+                        </div>
+
+                        <h2>My Skills</h2>
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>PHP / Wordpress <span class="color-heading pull-right">87%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Javascript <span class="color-heading pull-right">89%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="89"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>SQl (Mysql, Postgre, SQL Server) <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>HTML5 / CSS3 / BOOTSTRAP <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Git <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Natural Processing Language / Adabas <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>   
+                        <div class="progress-box">
+                            <h5>Agile Methodologies <span class="color-heading pull-right">90%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>HTML5 / CSS3 / BOOTSTRAP <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Pentaho Suite / Business Inteligence <span class="color-heading pull-right">70%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Project Management <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>C# / ASP.NET <span class="color-heading pull-right">65%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>MongoDB / Express / Angularjs / Nodejs <span class="color-heading pull-right">40%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="40"></div>
+                            </div>
+                        </div>   
+                        <div class="progress-box">
+                            <h5>Xamarin / Cordova <span class="color-heading pull-right">60%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Adobe Photoshop <span class="color-heading pull-right">60%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                            </div>
+                        </div> 
+                        <div class="progress-box">
+                            <h5>Docker <span class="color-heading pull-right">40%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="40"></div>
+                            </div>
+                        </div>   
+                        <div class="progress-box">
+                            <h5>Swift <span class="color-heading pull-right">30%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="30"></div>
+                            </div>
+                        </div> 
+                        <div class="progress-box">
+                            <h5>Unity <span class="color-heading pull-right">20%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="20"></div>
+                            </div>
+                        </div> 
+                        <div class="progress-box">
+                            <h5>Linux <span class="color-heading pull-right">70%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
+                            </div>
+                        </div>   
+                        <div class="progress-box">
+                            <h5>Microsoft Azure / AWS <span class="color-heading pull-right">20%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="20"></div>
+                            </div>
+                        </div>   
+                        <!-- End Progress Box -->
+                    </div>
+                    
+                </div>
+                <!--// end row -->                
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-5">
-          <!-- CONTACT -->
-          <div class="box clearfix">
-            <h2>Contact</h2>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:contact@thiagomb.com">contact@thiagomb.com</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-file-text-o fa-fw"></span></div>
-              <div class="title pull-right">Resume</div>
-              <div class="description pull-right">
-                <a target="_blank"  href="http://bit.ly/thiagosresume">
-                Download my full Resume!
-                </a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
-              <div class="title pull-right">Twitter</div>
-              <div class="description pull-right"><a target="_blank"  href="https://twitter.com/thiagomonteiro">https://twitter.com/thiagomonteiro</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
-              <div class="title pull-right">Github</div>
-              <div class="description pull-right"><a target="_blank"  href="http://www.github.com/supermonteiro">http://www.github.com/supermonteiro</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
-              <div class="title pull-right">Skype</div>
-              <div class="description pull-right">
-                <a href="skype:supermonteiro@gmail.com?chat">supermonteiro@gmail.com</a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
-              <div class="title pull-right">Linkedin</div>
-              <div class="description pull-right"><a target="_blank"  href="https://www.linkedin.com/in/tmbarbosa/">https://www.linkedin.com/in/tmbarbosa/</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-pencil fa-fw"></span></div>
-              <div class="title pull-right">Blog</div>
-              <div class="description pull-right"><a target="_blank"  href="http://depeloecuia.blogspot.com.br/">http://depeloecuia.blogspot.com.br/</a></div>
-            </div>            
-          </div>
-          <br/>
-          <!-- SKILLS -->
-          <div class="box">
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="item-skills" data-percent="1.00">IBM ALM</div>
-                <div class="item-skills" data-percent="1.00">HTML5 / CSS3</div>
-                <div class="item-skills" data-percent="1.00">Git</div>
-                <div class="item-skills" data-percent="1.00">Agile Methodology</div>
-                <div class="item-skills" data-percent="0.85">Bootstrap</div>
-                <div class="item-skills" data-percent="0.80">Wordpress</div>
-                <div class="item-skills" data-percent="0.80">PHP</div>
-                <div class="item-skills" data-percent="0.80">PostgreSQL / MySQL / SQL Server</div>
-                <div class="item-skills" data-percent="0.75">Javascript</div>
-                <div class="item-skills" data-percent="0.75">Natural Programing Language</div>
-                <div class="item-skills" data-percent="0.70">User Experience</div>
-                <div class="item-skills" data-percent="0.70">Project Management</div>
-                <div class="item-skills" data-percent="0.65">Pentaho Suite</div>
-                <div class="item-skills" data-percent="0.65">Adobe Photoshop</div>
-                <div class="item-skills" data-percent="0.60">C#</div>
-                <div class="item-skills" data-percent="0.60">Xamarin</div>
-                <div class="item-skills" data-percent="0.60">Cordova</div>
-                <div class="item-skills" data-percent="0.50">Business Inteligence</div>
-                <div class="item-skills" data-percent="0.50">Adabas</div>
-                <div class="item-skills" data-percent="0.40">Docker</div>                
-                <div class="item-skills" data-percent="0.30">CodeIgniter</div>
-                <div class="item-skills" data-percent="0.30">Microsoft Azure</div>
-                <div class="item-skills" data-percent="0.30">Swift</div>                
-                <div class="item-skills" data-percent="0.30">ASP.NET / VB.NET</div>                
-                <div class="item-skills" data-percent="0.30">Unity</div>
-                <div class="item-skills" data-percent="0.20">AWS</div>
-            </div>
-          </div>
-          <!-- PROJECTS -->
-          <div class="box">
-            <h2>My Last Projects</h2>
-              <div class="contact-item">
-                  <br />
-                  <div class="icon pull-left text-center">
-                      <span class="fa-fw"><img src="img/php-icon-small.png"></span>
-                      <br /><br />
-                      <span class="fa-fw"><img src="http://www.opensoftindia.com/static/img/tech/ci.png"></span>
-                      <br /><br />
-                      <span class="fa-fw"><img src="https://www.docker.com/sites/default/files/vertical_large.png"></span>
-                      <br /><br />
-                      <span class="fa-fw"><img src="http://epmpoint.com/wp-content/uploads/2015/07/icon-lg-azcloud.png"></span>
-                  </div>
-                  <div class="title pull-right">AirSembly</div>
-                  <div class="description pull-right">
-                      RESTful application for handling cloud services.
-                      <br />
-                      Development of models and controllers for connecting with Microsoft Azure.                                            
-                      <br />
-                      Backend on PHP with CodeIgniter, resquests using Postman, application running on Docker machines.
-                  </div>
-              </div>
-              <br />
-            <div class="contact-item">
-            <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa-fw"><img src="http://www.xappsoftware.com/wordpress/wp-content/uploads/2014/07/csharp3.png"></span>
-                <br/><br/>
-              <span class="fa-fw"><img src="http://downloadol.com/wp-content/uploads/2014/02/SQL-Server-2012-Express-icon.png"></span>
-              <br/><br/>
-                <span class="fa-fw"><img src="http://sourcico.com/wp-content/uploads/big-icon-meduim-size-agile002.png"></span>   
-              </div>
-              <div class="title pull-right">CambridgeWhosWho</div>
-              <div class="description pull-right">
-                Web System for selling biographies and portfolios.
-                <br/>
-                Optimization of existing code and creation of new functions.
-                <br/>
-                Stored Procedures and Functions on SQL Server Database.
-                <br/>
-                Frontend and backend on C# + ASP.NET.
-              </div>
-            </div>
-            <br/>
-            <div class="contact-item">
-              <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa fa-coffee fa-fw"></span>
-                <br/><br/>
-                <span class="fa-fw"><img src="img/angularjs-small.png"></span>
-                <br/><br/>
-                <span class="fa fa-bold fa-fw"></span>  
-                <br/>
-              </div>
-              <div class="title pull-right">Agenda</div>
-              <div class="description pull-right">
-                Web system for setting up meetings and reunions with SERPRO's branches across the country.
-                <br/>
-                We are developing a brand new system from scratch, using modern technologies.
-              </div>
-              <hr/>
-            </div>
-            <div class="contact-item">
-              <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa-fw"><img src="img/pentaho-icon.png"></span>
-                <br/><br/>
-                <span class="fa-fw"><img src="img/pgAdmin-small.png"></span>
-                <br/><br/>
-                <span class="fa-fw"><img src="img/hp-icon-small.png"></span>
-                <br/>
-              </div>
-              <div class="title pull-right">BI-DIDES</div>
-              <div class="description pull-right">
-                SERPRO's Business Inteligence structure. We created reports, optimized ETLs and jobs to reduce their processing times and evolved our DW and relational databases as required.                
-              </div>
-              <hr/>
-            </div>
-            <div class="contact-item">
-              <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa-fw"><img src="img/mainframe-icon-small.png"></span>                
-              </div>
-              <div class="title pull-right">DIVAT</div>
-              <div class="description pull-right">
-                Dívida Ativa da União (Union's Active Debt) is a mainframe system that keeps track of debts thats individuals or legal entities have with the federal government. 
+        <!-- End About -->
+
+        <!-- Qualifications -->
+        <div id="Qualifications">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container">
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-user"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>User Experience</h3>
+                                    <p class="margin-b-5">The user always comes first. It's mandatory to understand his needs and desires to deliver the best possible application.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height" >
+                                <div class="service-element">
+                                    <i class="service-icon icon-picture" ></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>UI Design</h3>
+                                    <p class="margin-b-5">Creation of design and layouts using CSS, Bootstrap and Photoshop.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-energy"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Motivation</h3>
+                                    <p class="margin-b-5">Always learning new things and trying to improve. I love my job!</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Quality Code</h3>
+                                    <p class="margin-b-5">I'm passionate about clean and smart code, which I believe is more than just an engineering work, it's a form of art.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
                 </div>
             </div>
-            <div class="contact-item">
-              <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa-fw"><img src="img/mainframe-icon-small.png"></span>                
-              </div>
-              <div class="title pull-right project">Rol De Responsáveis</div>
-              <div class="description pull-right">
-                Mainframe system responsible for keeping track of trust positions in the federal government: every person that held each position, and every position that each person held. 
-                </div>
-            </div>
-            <div class="contact-item">
-              <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa-fw"><img src="img/php-icon-small.png"></span> 
-                <br/>
-                <br/>
-                <span class="fa-fw"><img src="img/mysql-icon-small.png"></span>
-              </div>
-              <div class="title pull-right">dotProject</div>
-              <div class="description pull-right">
-                SSPDS' own version of dotProject, adjusted to its own way of managing projects. We changed the layout, disabled unused modules and created a new one.
-                <br/>
-                Our work was awarded as 2nd Most Innovative solution by Ceará's state government - Ceará Cidadania Eletrônica 2010.                
-              </div>
-            </div>
-            <div class="contact-item">
-              <br/>
-              <div class="icon pull-left text-center">
-                <span class="fa-fw"><img src="img/php-icon-small.png"></span> 
-                <br/>
-                <br/>
-                <span class="fa-fw"><img src="img/mysql-icon-small.png"></span>
-              </div>
-              <div class="title pull-right">Water Level Monitor System <a href="http://www.hidro.ce.gov.br/">http://www.hidro.ce.gov.br/</a></div>
-              <div class="description pull-right">
-                FUNCEME and COGERH partnered to create a call system to monitor the water level of all lakes in our state. Its a huge challenge, since it was developed from scratch and I had to suit it to the call center team's needs.
-                <br/><br/>                                
-              </div>
-            </div>
-          </div>
-
-          <!-- LANGUAGES -->
-          <div class="box">
-            <h2>Languages</h2>
-            <div id="language-skills">
-              <div class="skill">Portuguese <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
-              <div class="skill">English <div class="icons pull-right"><div style="width: 90%;" class="icons-red"></div></div></div>
-              <div class="skill">Japanese <div class="icons pull-right"><div style="width: 40%;" class="icons-red"></div></div></div>
-            </div>
-          </div>
-          <!-- HOBBIES -->
-          <div class="box">
-            <h2>Hobbies</h2>
-            <div class="hobby">Technology</div>
-            <div class="hobby">Science</div>
-            <div class="hobby">Movies</div>
-            <div class="hobby">Games</div>
-            <div class="hobby">Anime</div>
-            <div class="hobby">Pets</div>
-            <div class="hobby">Music</div>
-            <div class="hobby">Travels</div>
-            <div class="hobby">Learn</div>
-            <div class="hobby">Books</div>
-          </div>
-
         </div>
-      </div>
-    <br/>
-    <br/>
-    </div>
-    <!-- JQUERY -->
-    <script src="js/jquery.min.js"></script>
-    <!-- BOOTSTRAP -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- SCRIPTS -->
-    <script src="js/scripts.js"></script>
-  </body>
+        <!-- End Qualifications -->
+
+        <!-- Education -->
+        <div id="Education">
+            <div class="container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Education</h2>                        
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    <!-- Education -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/education/uece_v.jpg" alt="Education Image">
+                            </div>
+                        </div>
+                        <h4>Bachelor Degree <span class="text-uppercase margin-l-20">Computer Science</span></h4>
+                        <p>2002 - 2008</p>                        
+                    </div>
+                    
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/education/estacio.jpg" alt="Education Image">
+                            </div>
+                        </div>
+                        <h4>MBA <span class="text-uppercase margin-l-20">Project Management</span></h4>
+                        <p>2011 - 2013</p>                        
+                    </div>
+                    
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/education/nbcc.jpg" alt="Education Image">
+                            </div>
+                        </div>
+                        <h4>Programmer Analyst <span class="text-uppercase margin-l-20">Program</span></h4>
+                        <p>2016 - 2018</p>
+                        
+                    </div>
+                    
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Education -->
+
+        <!-- Companies -->
+        <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Companies -->
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/companies/airvm.png" alt="Companies Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/companies/cognitivex.png" alt="Companies Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/companies/serpro.png" alt="Companies Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/companies/sspds.png" alt="Companies Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/companies/funceme.png" alt="Companies Logo">
+                        </div>                        
+                    </div>
+                    <!-- End Swiper Wrapper -->
+                </div>
+                <!-- End Swiper Companies -->
+            </div>
+        </div>
+        <!-- End Companies -->
+
+        <!-- Promo Banner -->
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+                <h2 class="promo-banner-title">My Latest Projects</h2>
+                <p class="promo-banner-text">A briefly description of my last experiences.</p>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+        
+        <!-- PROJECTS -->
+        <div class="box bg-color-sky-light container" id="Projects">
+            <div class="row">
+                <div class="contact-item col-sm-4 ">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="img/php-icon-small.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="http://www.opensoftindia.com/static/img/tech/ci.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="https://www.docker.com/sites/default/files/vertical_large.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="http://epmpoint.com/wp-content/uploads/2015/07/icon-lg-azcloud.png"></span>
+                    </div>
+                    <div class="title pull-right">AirSembly</div>
+                    <div class="description pull-right">
+                        RESTful application for handling cloud services.
+                        <br />
+                        Development of models and controllers for connecting with Microsoft Azure.
+                        <br />
+                        Backend on PHP with CodeIgniter, resquests using Postman, application running on Docker machines.
+                    </div>
+                </div>
+                
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="http://www.xappsoftware.com/wordpress/wp-content/uploads/2014/07/csharp3.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="http://downloadol.com/wp-content/uploads/2014/02/SQL-Server-2012-Express-icon.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="http://sourcico.com/wp-content/uploads/big-icon-meduim-size-agile002.png"></span>
+                    </div>
+                    <div class="title pull-right">CambridgeWhosWho</div>
+                    <div class="description pull-right">
+                        Web System for selling biographies and portfolios.
+                        <br />
+                        Optimization of existing code and creation of new functions.
+                        <br />
+                        Stored Procedures and Functions on SQL Server Database.
+                        <br />
+                        Frontend and backend on C# + ASP.NET.
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class=" fa fa-coffee fa-fw"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="img/angularjs-small.png"></span>
+                        <br /><br />
+                        <span class="fa fa-bold fa-fw"></span>
+                        <br />
+                    </div>
+                    <div class="title pull-right">Agenda</div>
+                    <div class="description pull-right">
+                        Web system for setting up meetings and reunions with SERPRO's branches across the country.
+                        <br />
+                        We are developing a brand new system from scratch, using modern technologies.
+                    </div>
+                    
+                </div>
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="img/pentaho-icon.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="img/pgAdmin-small.png"></span>
+                        <br /><br />
+                        <span class="fa-fw"><img src="img/hp-icon-small.png"></span>
+                        <br />
+                    </div>
+                    <div class="title pull-right">BI-DIDES</div>
+                    <div class="description pull-right">
+                        SERPRO's Business Inteligence structure. We created reports, optimized ETLs and jobs to reduce their processing times and evolved our DW and relational databases as required.
+                    </div>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="img/mainframe-icon-small.png"></span>
+                    </div>
+                    <div class="title pull-right">DIVAT</div>
+                    <div class="description pull-right">
+                        Dívida Ativa da União (Union's Active Debt) is a mainframe system that keeps track of debts thats individuals or legal entities have with the federal government.
+                    </div>
+                </div>
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="img/mainframe-icon-small.png"></span>
+                    </div>
+                    <div class="title pull-right project">Rol De Responsáveis</div>
+                    <div class="description pull-right">
+                        Mainframe system responsible for keeping track of trust positions in the federal government: every person that held each position, and every position that each person held.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="img/php-icon-small.png"></span>
+                        <br />
+                        <br />
+                        <span class="fa-fw"><img src="img/mysql-icon-small.png"></span>
+                    </div>
+                    <div class="title pull-right">dotProject</div>
+                    <div class="description pull-right">
+                        SSPDS' own version of dotProject, adjusted to its own way of managing projects. We changed the layout, disabled unused modules and created a new one.
+                        <br />
+                        Our work was awarded as 2nd Most Innovative solution by Ceará's state government - Ceará Cidadania Eletrônica 2010.
+                    </div>
+                </div>
+                <div class="contact-item col-sm-4 sm-margin-b-50">
+                    <br />
+                    <div class="icon pull-left text-center">
+                        <span class="fa-fw"><img src="img/php-icon-small.png"></span>
+                        <br />
+                        <br />
+                        <span class="fa-fw"><img src="img/mysql-icon-small.png"></span>
+                    </div>
+                    <div class="title pull-right">Water Level Monitor System <a href="http://www.hidro.ce.gov.br/">http://www.hidro.ce.gov.br/</a></div>
+                    <div class="description pull-right">
+                        FUNCEME and COGERH partnered to create a call system to monitor the water level of all lakes in our state. Its a huge challenge, since it was developed from scratch and I had to suit it to the call center team's needs.
+                        <br /><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Contact Me</h2>
+                            <p>I'm looking for a company where I can be a productive team member and work with the newest technologies. If you think I'm a fit for your team, please get in touch.</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a href="#">Saint John, New Brunswick, Canada</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Phone</h4>
+                            <a href="#">+1 (506)962-4751</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Email</h4>
+                            <a href="mailto:#">contact@thiagomb.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Skype</h4>
+                            <a href="skype:supermonteiro@gmail.com?chat">supermonteiro@gmail.com</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0">Thiago Monteiro Barbosa</p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
